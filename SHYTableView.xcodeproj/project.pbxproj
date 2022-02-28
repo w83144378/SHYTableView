@@ -17,6 +17,7 @@
 		460ABF5D27CC5F5900789AEA /* SHYTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 460ABF5C27CC5F5900789AEA /* SHYTableViewTests.m */; };
 		460ABF6727CC5F5900789AEA /* SHYTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 460ABF6627CC5F5900789AEA /* SHYTableViewUITests.m */; };
 		460ABF6927CC5F5900789AEA /* SHYTableViewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 460ABF6827CC5F5900789AEA /* SHYTableViewUITestsLaunchTests.m */; };
+		460ABF7727CC677A00789AEA /* CustomTableVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 460ABF7627CC677A00789AEA /* CustomTableVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		460ABF6227CC5F5900789AEA /* SHYTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHYTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		460ABF6627CC5F5900789AEA /* SHYTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHYTableViewUITests.m; sourceTree = "<group>"; };
 		460ABF6827CC5F5900789AEA /* SHYTableViewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHYTableViewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		460ABF7527CC677A00789AEA /* CustomTableVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableVIew.h; sourceTree = "<group>"; };
+		460ABF7627CC677A00789AEA /* CustomTableVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableVIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				460ABF4E27CC5F5900789AEA /* LaunchScreen.storyboard */,
 				460ABF5127CC5F5900789AEA /* Info.plist */,
 				460ABF5227CC5F5900789AEA /* main.m */,
+				460ABF7527CC677A00789AEA /* CustomTableVIew.h */,
+				460ABF7627CC677A00789AEA /* CustomTableVIew.m */,
 			);
 			path = SHYTableView;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460ABF7727CC677A00789AEA /* CustomTableVIew.m in Sources */,
 				460ABF4827CC5F5700789AEA /* ViewController.m in Sources */,
 				460ABF4227CC5F5700789AEA /* AppDelegate.m in Sources */,
 				460ABF5327CC5F5900789AEA /* main.m in Sources */,
